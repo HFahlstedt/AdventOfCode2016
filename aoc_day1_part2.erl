@@ -1,4 +1,4 @@
--module(aoc_2).
+-module(aoc_day1_part2).
 -export([solve/0]).
 
 solve() -> solve(commands(), {0, 0, north}, [{0, 0, north}]).
